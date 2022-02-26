@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promesas en JS</title>
+</head>
+<body>
+    <script>
+        // crear o diseñar promesa
+        let p = new Promise(function(resolve, reject){
+            let suma = 2 + 6;
+            if(suma === 8){
+                resolve("correto");
+            }else{
+                reject("Eror");
+            }
+        }); 
+        // Hasta aquí se crea la promesa
+
+        p.then(function(mensaje){
+            alert(mensaje);
+        }).catch(function(error){
+            alert(error);
+        });
+
+    </script>
+</body>
+</html>
