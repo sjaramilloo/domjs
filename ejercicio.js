@@ -42,8 +42,8 @@ function crear(tag, contenido){
     
 }
 
-
 crear("h1", "este es un trabajo");
+
 
 
 function crear(tag, contenido){
@@ -53,3 +53,10 @@ function crear(tag, contenido){
     document.body.appendChild(elemento);   
 }
     crear("h1", "este es un trabajo");
+
+
+    var elemento = document.createElement("h2");
+var contenido = document.createTextNode("dsfdsafasdfafasdf");
+elemento.appendChild(contenido);
+elemento.setAttribute("aling", "center");
+document.body.getElementById("");
