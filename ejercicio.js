@@ -60,3 +60,17 @@ var contenido = document.createTextNode("dsfdsafasdfafasdf");
 elemento.appendChild(contenido);
 elemento.setAttribute("aling", "center");
 document.body.getElementById("");
+
+
+
+
+
+var lista = document.querySelectorAll(".js-o-link");
+
+// Recorro la lista 
+for (let index = 0; index < lista.length ; index++) {
+    // guaddo el txtcontent de cada indice en X
+    var x = lista[index].textContent
+    // se muestra X
+        console.log(x);
+    } 
