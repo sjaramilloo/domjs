@@ -1,0 +1,23 @@
+{
+  "name": "domjs",
+  "version": "1.0.0",
+  "description": "nuevo proyecto",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjaramilloo/domjs.git"
+  },
+  "author": "Sebastian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjaramilloo/domjs/issues"
+  },
+  "homepage": "https://github.com/sjaramilloo/domjs#readme",
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
